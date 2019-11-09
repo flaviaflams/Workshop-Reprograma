@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Hepta Slab', serif;
+    margin: 0;
+}
+/* tirar sublinhado do link*/
+a{ 
+text-decoration:none; 
+} 
+
+/*CAPA*/
+.capa{
+    background: url(./imagens/capa1.jpg) center no-repeat;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    margin: 0;
+    
+}
+.capa_titulo{
+    font-size: 3rem;
+    color:rgb(6, 116, 136);
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold; 
+    padding-top: 80px;
+}
+.capa_subtitulo{
+    font-size: 2rem;
+    color:rgb(6, 116, 136);
+    text-shadow: 1px 1px 1px black;
+    padding: 8rem;
+}
+
+.botao{
+    border: rgb(6, 116, 136) solid 3px;
+    border-radius: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(6, 116, 136);
+    background-color: white;
+    padding: 1rem 3rem;
+}
+
+/*sobre*/
+
+.infos{
+    display: flex;
+    width: 90%;
+    align-content: center;
+}
+.destaque{
+    color: rgb(6, 116, 136);
+    font-size: 30px;
+    line-height: 3rem;
+    margin: 30px auto;
+    text-align: center;
+}
+.esquerda{
+    width: 70%;
+    margin: 40px;
+}
+.p1{
+    font-size: 22px;
+    text-align: justify;
+    margin: 30px;
+}
+.p2{
+    font-size: 18px;
+    text-align: justify;
+    margin: 30px;
+}
+
+.botao_cv{
+    border: rgb(6, 116, 136) solid 3px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(6, 116, 136);
+    text-align: center;
+    margin: 30%;
+    padding: 1rem 2rem;
+
+}
+.direita{
+    width: 40%;
+    margin: 40px;
+    padding-top: 0rem; 
+}
+ul{
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+
+li{
+    line-height: 2rem;
+}
+
+/*REDES SOCIAIS*/
+
+.rede{
+    text-align: center;
+    margin-top: 3rem;
+}
+.item{
+    display: inline-block;
+    background-color:rgb(6, 116, 136);
+    width: 14%;
+    color: white;
+    width: 300px;
+    padding: 1rem;
+    margin: 1rem;
+}
+img{
+    height: 150px;
+    padding: 1rem;
+}
+
+h5{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+footer{
+    background-color: rgba(140, 140, 161, 0.705);
+    font-size: 15px;
+    color:rgb(6, 116, 136); 
+    text-align: right;
+    padding: 1rem;
+}
